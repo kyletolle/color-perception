@@ -21,12 +21,12 @@ function getStyle(tagName, styleName) {
   return property;
 }
 
-
 function lightenBackground() {
   var tagName = 'body';
   var styleName = 'background-color';
   var currentColor = getStyle(tagName, styleName);
 
+  // Stop lightening the background when it's totally white.
   if (currentColor == 'rgb(255, 255, 255)') {
     window.clearInterval(lightenBackgroundInterval);
   }
@@ -49,11 +49,4 @@ function incrementColor(currentColor) {
 
   return 'rgb(' + [newR,newG,newB].join(',') + ')';
 }
-
-
-
-function backgroundColor() {
-  document.body.style.backgroundColor;
-}
-
 
