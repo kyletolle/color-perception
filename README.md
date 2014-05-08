@@ -17,5 +17,5 @@ Load the `index.html` page in a browser, or visit the [live demo][2].
 MIT
 
 [1]: http://blog.kyletolle.com/clouds/
-[1]: http://kyletolle.github.io/color-perception/
+[2]: http://kyletolle.github.io/color-perception/
 
